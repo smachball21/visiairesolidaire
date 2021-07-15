@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+		<script src="./js/plugins.js"></script>
+		<meta charset="utf-8">
+		<title>Shields - Visiere Solidaire - COVID 19 - Côte D'Or 21</title>
+		<script src="https://kit.fontawesome.com/a5c27d102c.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+	</head>
+	<body>
+	
+		<!-- NAVBAR -->
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-fixed">
+			<img src="./img/logo.webp" alt="LOGO" class="logo" width="50px" style="">
+			<a id="headertext" class="navbar-brand headertext" href="#">Shields - Visiere Solidaire - COVID 19 - Côte D'Or 21</a>
+		  
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto mx-auto">
+					<!--<li class="nav-item">
+						<a class="btn btn-success" href="https://docs.google.com/forms/d/15vMPdnJK-xPFlbjUz6Rhnd0OmxuViRentPVK-Su18Fg/viewform?edit_requested=true" target="_blank">Demande</a>
+					</li>-->
+					<li class="nav-item">
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Documents
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="https://drive.google.com/file/d/1ER6yO7BvnXAK5KTyiEHoezxKyw1DZvGf/view" target="_blank">Note Utilisateur</a>
+							<a class="dropdown-item" href="https://drive.google.com/file/d/1z9jGBrPxav_6u1KnqZE9yE8Ld7ddjF4a/view" target="_blank">Notice de montage</a>
+							<a class="dropdown-item" href="./docs/pdf/Groupe_FB_Shields_visiere solidaire_Covid19.pdf" target="_blank">Groupes facebook par région</a>
+						  </div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Fichiers STL
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="./docs/stl/shield-V12.1-flat-Heat.stl" target="_blank">shield-V12.1-flat-Heart</a>
+							<a class="dropdown-item" href="./docs/stl/CLIPS-EN-U-V13.stl" target="_blank">Clips - V13</a>
+							<a class="dropdown-item" href="./docs/stl/Boucle_visiere_allege.stl" target="_blank">Boucle visière allègé (optionnel)</a>
+						  </div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<!-- CAROUSEL -->
+		<div id="carouselExampleIndicators" class="carousel carousel-fade slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<!-- SLIDE 1 -->
+				<div class="carousel-item active">
+					<div class="carousel-caption d-md-block vertical-center">
+						<h2 class="display-4 carouseltext text-uppercase">Qui sommes-nous ?</h2>
+						<br>
+						<p class="lead carouseltext">Ce groupe est dédié à la fabrication de matériel de protection pour les personnels soignants et autres acteurs en contact avec le public.</p>
+						<br>
+						<p class="lead carouseltext">Vous êtes un maker 3D</p>
+						<p class="lead "><a href="https://forms.gle/oh7Jdakgtgj3fSCH9" target="_blank" class="btn btn-success">Proposer votre aide</a></p>
+						<br>
+						<p class="lead carouseltext">Vous avez besoin de visière(s)</p>
+						<p class="lead "><a href="https://forms.gle/Px8mUjt4jvDY7Ndr7" target="_blank" class="btn btn-success">Faire une demande de visière</a></p>
+					</div>
+				</div>
+				<!-- SLIDE 2  -->
+				<div class="carousel-item">
+					<div class="carousel-caption d-md-block vertical-center">
+						<h2 class="display-4 carouseltext text-uppercase">Où nous contacter ?</h2>
+						<br>
+						<p class="lead carouseltext">Vous pouvez également nous suivre ou nous contacter via les <a href="https://www.facebook.com/groups/357025341924111/">réseaux</a></p>
+						<p class="lead carouseltext">ou notre adresse mail (<a href="mailto: visieresolidaire21@gmail.com">visieresolidaire21@gmail.com</a>)</p>
+					</div>
+				</div>
+				<!-- SLIDE 3  -->
+				<div class="carousel-item">
+					<div class="carousel-caption d-md-block vertical-center">
+						<h2 class="display-4 carouseltext text-uppercase">Qui sommes-nous ?</h2>
+						<br>
+						<p class="lead carouseltext">Ce groupe est dédié à la fabrication de matériel de protection pour les personnels soignants et autres acteurs en contact avec le public.</p>
+						<br>
+						<p class="lead carouseltext">Vous êtes un maker 3D</p>
+						<p class="lead "><a href="https://forms.gle/oh7Jdakgtgj3fSCH9" target="_blank" class="btn btn-success">Proposer votre aide</a></p>
+						<br>
+						<p class="lead carouseltext">Vous avez besoin de visière(s)</p>
+						<p class="lead "><a href="https://forms.gle/Px8mUjt4jvDY7Ndr7" target="_blank" class="btn btn-success">Faire une demande de visière</a></p>
+					</div>
+				</div>
+				<!-- SLIDE 4  -->
+			    <div class="carousel-item">
+					<div class="carousel-caption d-md-block vertical-center">
+						<h2 class="display-4 carouseltext text-uppercase">Où nous contacter ?</h2>
+						<br>
+						<p class="lead carouseltext">Vous pouvez également nous suivre ou nous contacter via les <a href="https://www.facebook.com/groups/357025341924111/">réseaux</a></p>
+						<p class="lead carouseltext">ou notre adresse mail (<a href="mailto: visieresolidaire21@gmail.com">visieresolidaire21@gmail.com</a>)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<footer class="page-footer font-small pt-4">
+		<div class="container">
+			<ul class="list-unstyled list-inline text-center">
+				<li class="list-inline-item">
+					<h3 class="contacttext"> Suivez-nous sur les réseaux </h3>
+					<a class="btn-floating btn-fb mx-1 footlink" href="https://www.facebook.com/groups/357025341924111/" target="_blank">
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					</a>
+					<a class="btn-floating btn-mail mx-1 footlink" href="mailto:visieresolidaire21@gmail.com">
+						<i class="fas fa-at" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer-copyright text-center py-3">© 2020 Copyright -
+			<a href="https://rayformatics.fr">Rayformatics.fr</a>
+		</div>
+	</footer>
+</html>

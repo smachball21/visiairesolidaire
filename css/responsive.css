@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+	.headertext {
+		font-size: 8px;
+	}
+
+	.headertext-bgwhite {
+		font-size: 8px;
+	}
+	
+	.afterlink {
+		display:none;
+	}
+	
+	.carouseltext {
+		font-size: 14px;
+	}
+	
+	img.logo {
+		width: 25px;
+	}
+}
